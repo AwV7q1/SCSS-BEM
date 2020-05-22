@@ -1,0 +1,169 @@
+.box-1 {
+    background-color: hotpink;
+    width: 100px;
+    height: 100px;
+
+    @include respond (tab-land) {
+        background-color: red;
+    }
+
+    @include respond (tab-port) {
+        background-color: brown;
+    }
+
+    @include respond (phone) {
+        background-color: cadetblue;
+    }
+
+    @include respond (big-desktop) {
+        background-color: coral;
+    }
+}
+
+.box-3 {
+    background-color: hotpink;
+    width: 100px;
+    height: 100px;
+
+    @include respond (tab-land) {
+        background-color: red;
+    }
+
+}
+
+.box-4 {
+    background-color: hotpink;
+    width: 100px;
+    height: 100px;
+
+    @include respond (tab-land) {
+        background-color: red;
+    }
+
+}
+
+
+.info {
+    
+    &__title {
+        color: red;
+        &.-bold {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        &.-background {
+            background:gray;
+        }
+      
+    }
+    &__subtitle{
+        color: blue;
+    }
+ 
+ 
+}
+
+
+
+.component {
+    color: green;
+    &-mod {
+        font-size: 20;
+    }
+}
+.btn {
+  
+    &.-color-green {
+      background-color: greenyellow;
+    }
+    &.-bg-blue {
+      background-color: blue;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// /*từ 1200 - 1800px đây là khoảng bình thường, viết css sẽ tự nhận*/
+// @media (min-width: 1800px) {
+//     .content-wrap .content .title {
+//       color: gold;
+//     }
+//   }
+//   /*từ 900 - 1200px tablet landscape*/
+//   @media (max-width: 1200px) {
+//     .content-wrap .content .title {
+//       color: blue;
+//     }
+//   }
+//   /*từ 600 - 900px tablet portrait*/
+//   @media (max-width: 900px) {
+//     .content-wrap .content .title {
+//       color: red;
+//     }
+//   }
+//   /*từ 0 - 600px mobile*/
+//   @media (max-width: 600px) {
+//     .content-wrap .content .title {
+//       color: green;
+//     }
+//   }
+
+
+
+
+
+
+
+
+// .box-2 {
+//     background-color: hotpink;
+//     width: 100px;
+//     height: 100px;
+
+//     @media (max-width: 600px) {
+//         background-color: green;
+//     }
+
+//     @media (max-width: 600px) {
+//         background-color: green;
+//     }
+
+//     @media (max-width: 600px) {
+//         background-color: green;
+//     }
+
+//     @media (max-width: 600px) {
+//         background-color: green;
+//     }
+// }
